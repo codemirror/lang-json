@@ -1,6 +1,6 @@
-# @codemirror/lang-json
+# @codemirror/lang-json [![NPM version](https://img.shields.io/npm/v/@codemirror/lang-json.svg)](https://www.npmjs.org/package/@codemirror/lang-json)
 
-[ [![NPM version](https://img.shields.io/npm/v/@codemirror/next.svg)](https://www.npmjs.org/package/@codemirror/lang-json) | [**WEBSITE**](https://codemirror.net/6/) | [**ISSUES**](https://github.com/codemirror/codemirror.next/issues) | [**FORUM**](https://discuss.codemirror.net/c/next/) | [**CHANGELOG**](https://github.com/codemirror/lang-json/blob/main/CHANGELOG.md) ]
+[ [**WEBSITE**](https://codemirror.net/6/) | [**ISSUES**](https://github.com/codemirror/codemirror.next/issues) | [**FORUM**](https://discuss.codemirror.net/c/next/) | [**CHANGELOG**](https://github.com/codemirror/lang-json/blob/main/CHANGELOG.md) ]
 
 This package implements JSON language support for the
 [CodeMirror](https://codemirror.net/6/) code editor.
