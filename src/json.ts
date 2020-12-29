@@ -1,7 +1,7 @@
 import {parser} from "lezer-json"
-import {continuedIndent, indentNodeProp, foldNodeProp, LezerLanguage, LanguageSupport} from "@codemirror/next/language"
+import {continuedIndent, indentNodeProp, foldNodeProp, LezerLanguage, LanguageSupport} from "@codemirror/language"
 import {SyntaxNode} from "lezer-tree"
-import {styleTags, tags as t} from "@codemirror/next/highlight"
+import {styleTags, tags as t} from "@codemirror/highlight"
 
 /// A language provider that provides JSON parsing.
 export const jsonLanguage = LezerLanguage.define({
