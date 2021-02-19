@@ -28,8 +28,7 @@
   "dependencies": {
     "@codemirror/highlight": "^0.17.0",
     "@codemirror/language": "^0.17.0",
-    "lezer-json": "^0.13.0",
-    "lezer-tree": "^0.13.0"
+    "lezer-json": "^0.13.0"
   },
   "devDependencies": {
     "rollup": "^2.35.1",

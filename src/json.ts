@@ -1,6 +1,5 @@
 import {parser} from "lezer-json"
-import {continuedIndent, indentNodeProp, foldNodeProp, LezerLanguage, LanguageSupport} from "@codemirror/language"
-import {SyntaxNode} from "lezer-tree"
+import {continuedIndent, indentNodeProp, foldNodeProp, foldInside, LezerLanguage, LanguageSupport} from "@codemirror/language"
 import {styleTags, tags as t} from "@codemirror/highlight"
 
 /// A language provider that provides JSON parsing.
@@ -12,8 +11,7 @@ export const jsonLanguage = LezerLanguage.define({
         Array: continuedIndent({except: /^\s*\]/})
       }),
       foldNodeProp.add({
-        Object(subtree: SyntaxNode) { return {from: subtree.from + 1, to: subtree.to - 1} },
-        Array(subtree: SyntaxNode) { return {from: subtree.from + 1, to: subtree.to - 1} }
+        "Object Array": foldInside
       }),
       styleTags({
         String: t.string,
