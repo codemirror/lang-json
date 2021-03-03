@@ -1,6 +1,6 @@
 {
   "name": "@codemirror/lang-json",
-  "version": "0.17.1",
+  "version": "0.18.0",
   "description": "JSON language support for the CodeMirror code editor",
   "scripts": {
     "test": "echo 'No tests'",
@@ -26,8 +26,8 @@
   "sideEffects": false,
   "license": "MIT",
   "dependencies": {
-    "@codemirror/highlight": "^0.17.0",
-    "@codemirror/language": "^0.17.0",
+    "@codemirror/highlight": "^0.18.0",
+    "@codemirror/language": "^0.18.0",
     "lezer-json": "^0.13.0"
   },
   "devDependencies": {
