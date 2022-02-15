@@ -18,7 +18,7 @@ export const jsonLanguage = LRLanguage.define({
         Number: t.number,
         "True False": t.bool,
         PropertyName: t.propertyName,
-        null: t.null,
+        Null: t.null,
         ",": t.separator,
         "[ ]": t.squareBracket,
         "{ }": t.brace
