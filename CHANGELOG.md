@@ -1,3 +1,9 @@
+## 0.19.2 (2022-02-15)
+
+### Bug fixes
+
+Fix highlighting of `null` tokens.
+
 ## 0.19.1 (2021-08-11)
 
 ### Bug fixes
