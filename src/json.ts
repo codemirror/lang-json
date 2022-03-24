@@ -1,6 +1,5 @@
 import {parser} from "@lezer/json"
 import {continuedIndent, indentNodeProp, foldNodeProp, foldInside, LRLanguage, LanguageSupport} from "@codemirror/language"
-import {styleTags, tags as t} from "@codemirror/highlight"
 
 /// A language provider that provides JSON parsing.
 export const jsonLanguage = LRLanguage.define({
@@ -12,16 +11,6 @@ export const jsonLanguage = LRLanguage.define({
       }),
       foldNodeProp.add({
         "Object Array": foldInside
-      }),
-      styleTags({
-        String: t.string,
-        Number: t.number,
-        "True False": t.bool,
-        PropertyName: t.propertyName,
-        Null: t.null,
-        ",": t.separator,
-        "[ ]": t.squareBracket,
-        "{ }": t.brace
       })
     ]
   }),
