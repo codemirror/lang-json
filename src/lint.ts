@@ -1,6 +1,6 @@
 import {Diagnostic} from "@codemirror/lint"
 import {EditorView} from "@codemirror/view"
-import {Text} from "@codemirror/text"
+import {Text} from "@codemirror/state"
 
 /// Calls
 /// [`JSON.parse`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
