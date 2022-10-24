@@ -3,6 +3,7 @@ import {continuedIndent, indentNodeProp, foldNodeProp, foldInside, LRLanguage, L
 
 /// A language provider that provides JSON parsing.
 export const jsonLanguage = LRLanguage.define({
+  name: "json",
   parser: parser.configure({
     props: [
       indentNodeProp.add({
