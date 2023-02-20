@@ -20,6 +20,7 @@ conduct](http://contributor-covenant.org/version/1/1/0/) that applies
 to communication around the project.
 
 ## API Reference
+
 <dl>
 <dt id="user-content-json">
   <code><strong><a href="#user-content-json">json</a></strong>() → <a href="https://codemirror.net/docs/ref#language.LanguageSupport">LanguageSupport</a></code></dt>
@@ -27,7 +28,7 @@ to communication around the project.
 <dd><p>JSON language support.</p>
 </dd>
 <dt id="user-content-jsonlanguage">
-  <code><strong><a href="#user-content-jsonlanguage">jsonLanguage</a></strong>: <a href="https://codemirror.net/docs/ref#language.LezerLanguage">LezerLanguage</a></code></dt>
+  <code><strong><a href="#user-content-jsonlanguage">jsonLanguage</a></strong>: <a href="https://codemirror.net/docs/ref#language.LRLanguage">LRLanguage</a></code></dt>
 
 <dd><p>A language provider that provides JSON parsing.</p>
 </dd>
@@ -40,4 +41,3 @@ on the document and, if that throws an error, reports it as a
 single diagnostic.</p>
 </dd>
 </dl>
-
