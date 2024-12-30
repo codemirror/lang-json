@@ -19,6 +19,19 @@ we have a [code of
 conduct](http://contributor-covenant.org/version/1/1/0/) that applies
 to communication around the project.
 
+## Usage
+
+```javascript
+import {EditorView, basicSetup} from "codemirror"
+import {json} from "@codemirror/lang-json"
+
+const view = new EditorView({
+  parent: document.body,
+  doc: `{"version": "9.99.99", "data": [1, 2, 3]}`,
+  extensions: [basicSetup, json()]
+})
+```
+
 ## API Reference
 
 <dl>
