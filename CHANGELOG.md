@@ -1,3 +1,8 @@
+## 6.0.2 (2025-06-19)
+
+### Bug fixes
+
+Add a .d.cts file to make TypeScript happy.
 ## 6.0.1 (2022-10-24)
 
 ### Bug fixes
