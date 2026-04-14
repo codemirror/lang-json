@@ -34,6 +34,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codemirror/lang-json.git"
+    "url": "git+https://code.haverbeke.berlin/codemirror/lang-json.git"
   }
 }
