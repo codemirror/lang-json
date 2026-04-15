@@ -1,3 +1,5 @@
+**This repository has moved to https://code.haverbeke.berlin/codemirror/lang-json**
+
 <!-- NOTE: README.md is generated from src/README.md -->
 
 # @codemirror/lang-json [![NPM version](https://img.shields.io/npm/v/@codemirror/lang-json.svg)](https://www.npmjs.org/package/@codemirror/lang-json)
